@@ -1,0 +1,30 @@
+name: flutter_music_player
+description: "A complete offline and online Flutter Music Player app."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  just_audio: ^0.9.36
+  just_audio_background: ^0.0.1-beta.11
+  on_audio_query: ^2.9.0
+  permission_handler: ^11.3.0
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.2
+  uuid: ^4.3.3
+  youtube_explode_dart: ^2.2.1
+  dio: ^5.4.1
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
